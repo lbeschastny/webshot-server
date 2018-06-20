@@ -1,0 +1,9 @@
+# node.js files
+node_modules
+npm-debug.log
+
+# private files
+.*
+
+# tests
+test

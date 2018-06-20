@@ -13,6 +13,9 @@
     "webshot": "^0.18.0",
     "winston": "^2.2.0"
   },
+  "optionalDependencies": {
+    "phantomjs-prebuilt": "*"
+  },
   "deprecated": false,
   "description": "A simple http server for node-webshot",
   "devDependencies": {
@@ -31,6 +34,7 @@
   "main": "index.js",
   "name": "webshot-server",
   "scripts": {
+    "start": "node .",
     "test": "PORT=4556 mocha ./test/core.js ./test/options/*"
   },
   "version": "0.1.2"
